@@ -1,23 +1,22 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
-import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import androidIcon from "./images/android.svg"
+import springIcon from "./images/spring.png"
+import nodejsIcon from "./images/nodejs.svg"
+import vuejsIcon from "./images/vuejs.svg"
+import reactjsIcon from "./images/react.svg"
+import reactNativeIcon from "./images/react-native.svg"
+import laravelIcon from "./images/laravel.png"
+import odooIcon from "./images/odoo.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Guelmy Deuveaux",
   headerTagline: [
     //Line 1 For Header
     "Building digital",
@@ -27,11 +26,10 @@ export default {
     "and experience",
   ],
   //   Header Paragraph
-  headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+  headerParagraph: "",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "pguelmi@gmail.com",
 
   // End Header Details -----------------------
 
@@ -120,13 +118,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I studied at the Gautier Basic School and did high school at prof. Hilda gutierrez",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I worked for 6 months in softlav one of the companies that is in charge of working with PayPal and the one in charge of managing the OFIT system 'tourist office and cultural exchange'",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "I have worked on okDriver. The 2018 Entrepreneur of the Year award winning app",
+  aboutParaFour:
+    "3 years worked in iguabaTech as a mobile developer 'java android studio' and javascript with node, vue and react",
 
   //   End About Section ---------------------
 
@@ -134,42 +132,54 @@ export default {
 
   //   Import Icons from the top and link it here
 
-  skills: [
+  skillsJava: [
     {
       id: 1,
-      img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: androidIcon,
+      para: "Android Studio",
     },
     {
       id: 2,
-      img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: springIcon,
+      para: "Spring Boot",
+    },
+  ],
+
+  skillsJavascript: [
+    {
+      id: 1,
+      img: reactjsIcon,
+      para: "React.js",
+    },
+    {
+      id: 2,
+      img: reactNativeIcon,
+      para: "React Native",
     },
     {
       id: 3,
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: nodejsIcon,
+      para: "Node.js",
     },
     {
       id: 4,
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: vuejsIcon,
+      para: "Vue.js",
     },
+  ],
+
+  skillsPHP: [
     {
-      id: 5,
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      id: 1,
+      img: laravelIcon,
+      para: "Laravel Framework",
     },
+  ],
+  skillsPython: [
     {
-      id: 6,
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      id: 1,
+      img: odooIcon,
+      para: "Odoo",
     },
   ],
 
@@ -187,19 +197,7 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+    { img: githubIcon, url: "https://github.com/Guelmy" },
   ],
 
   // End Contact Section ---------------
